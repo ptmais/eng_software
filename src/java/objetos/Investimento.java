@@ -58,4 +58,9 @@ public class Investimento {
         return false;
     }
     
+    // By: Carlos
+    // Novas funções para testar lucro do investimento
+    public double lucroInvestimento(Investimento inv){       
+        return 0;
+    }
 }
