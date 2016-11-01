@@ -28,4 +28,9 @@ public class Teste_Investimento {
         assertTrue(investimento.cadastrarTaxa());
     }
     
+    @Test
+    public void testarLucroLCI(){
+        assertEquals(0, investimento.lucroInvestimento(investimento));
+    }
+    
 }
