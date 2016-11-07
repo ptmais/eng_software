@@ -18,9 +18,25 @@ public class Teste_Investimento {
         investimento = new Investimento("nome", 0, null, 0);
     }
 
+    /*
     @Test
     public void cadastrarTipo() {
         assertTrue(investimento.cadastrarInvestimento());
+    }
+     */
+    @Test
+    public void cadastrarInvestimento() {
+        assertTrue(investimento.cadastrarInvestimento());
+    }
+
+    @Test
+    public void alterarInvestimento() {
+        assertTrue(investimento.alterarInvestimento());
+    }
+
+    @Test
+    public void excluirInvestimento() {
+        assertTrue(investimento.excluirInvestimento());
     }
 
     /*
